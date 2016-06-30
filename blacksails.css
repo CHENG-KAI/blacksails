@@ -7,7 +7,7 @@ position:absolute;
       list-style-type: none;
       margin-right: 100px;
       margin-left: 250px;
-      padding-top:25px;
+      padding-top:60px;
       overflow: hidden;
 
 }
@@ -31,33 +31,21 @@ color: black;
 
 }
 
-#nav_bar video{
-  padding-top: 70px;
-  height: 100%;
-  width: 100%;
-
-}
-
 
 #logo{
-width:80px;
-height:80px;
-}
-
-#logo{
+width:75px;
+height:75px;
 float:left;
-margin-top: -10px;
+margin-left:20px;
+margin-top: 10px;
 }
-
 
 #wrapper video{
-  padding-top: 70px;
+  padding-top: 90px;
   height: 100%;
   width: 100%;
 
 }
-
-
 
 #footbar{
 position:relative;
@@ -118,6 +106,9 @@ font-size:18px;
 font-style: Proxima;
 font-weight:200;
 color: white;
+}
 
-
+#Download_app_logo{
+width:150px;
+height:45px;
 }
