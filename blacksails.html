@@ -14,7 +14,7 @@
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
-  $("#video_icon").on('mouseover', function(event) {
+  $("a").on('mouseover', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
@@ -76,7 +76,7 @@ Your browser does not support the video tag.
 <div id="video_icon"><a href="#wrapper_img"> Click </a></div>
 
 <div id="wrapper_img">
-  <img src="img/11.jpg" id="Kodama" />
+  <img src="img/11.jpg" id="Kodama"/>
   <a herf=""><button type="button" id="button1">Default</button></a>
   <img src="img/12.jpg" id="Kodama" />
   <a herf=""><button type="button" id="button1">Default</button></a>
