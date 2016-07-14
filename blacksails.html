@@ -8,20 +8,61 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en"/>
 <link type="text/css" rel="stylesheet" href="bootstrap.min.css">
-</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("#video_icon").on('mouseover', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
 <div id="nav_bar">
   <img src="img/logo.jpg" id="logo" />
   <ul>
-
     <li><a class="About" href="#">About</a></li>
-    <li><a class="Team"   href="#">Team</a></li>
+    <li><a class="Fever"   href="#">Favor</a></li>
     <li><a class="Service"   href="#">Service</a></li>
     <li><a class="Product"   href="#">Product</a></li>
     <li><a class="Telegentic_App"   href="#">Telegentic App</a></li>
     <li><a class="Contest"   href="#">Contest</a></li>
-    <li><a class="Legal"   href="#">Legal</a></li>
-    <li><a class="Contact_Us"   href="#">Contact Us</a></li>
     <li><a class="Chinese_Site"   href="#">Chinese Site</a></li>
   </ul>
 </div>
@@ -31,26 +72,30 @@
 <source src="video/web.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
-
-<a herf=""><button type="button" id="button1">Default</button></a>
-<img src="img/11.jpg" id="Kodama" />
-<a herf=""><button type="button" id="button1">Default</button></a>
-<img src="img/12.jpg" id="Kodama" />
-<a herf=""><button type="button" id="button1">Default</button></a>
-<img src="img/13.jpg" id="Kodama" />
-<a herf=""><button type="button" id="button1">Default</button></a>
-<img src="img/14.jpg" id="Kodama" />
-<a herf=""><button type="button" id="button1">Default</button></a>
-<img src="img/15.jpg" id="Kodama" />
-<a herf=""><button type="button" id="button1">Default</button></a>
-<img src="img/16.jpg" id="Kodama" />
-<a herf=""><button type="button" id="button1">Default</button></a>
-<img src="img/17.jpg" id="Kodama" />
-<a herf=""><button type="button" id="button1">Default</button></a>
-<img src="img/18.jpg" id="Kodama" />
-<a herf=""><button type="button" id="button1">Default</button></a>
-<img src="img/19.jpg" id="Kodama" />
 </div>
+<div id="video_icon"><a href="#wrapper_img"> Click </a></div>
+
+<div id="wrapper_img">
+  <img src="img/11.jpg" id="Kodama" />
+  <a herf=""><button type="button" id="button1">Default</button></a>
+  <img src="img/12.jpg" id="Kodama" />
+  <a herf=""><button type="button" id="button1">Default</button></a>
+  <img src="img/13.jpg" id="Kodama" />
+  <a herf=""><button type="button" id="button1">Default</button></a>
+  <img src="img/14.jpg" id="Kodama" />
+  <a herf=""><button type="button" id="button1">Default</button></a>
+  <img src="img/15.jpg" id="Kodama" />
+  <a herf=""><button type="button" id="button1">Default</button></a>
+  <img src="img/16.jpg" id="Kodama" />
+  <a herf=""><button type="button" id="button1">Default</button></a>
+  <img src="img/17.jpg" id="Kodama" />
+  <a herf=""><button type="button" id="button1">Default</button></a>
+  <img src="img/18.jpg" id="Kodama" />
+  <a herf=""><button type="button" id="button1">Default</button></a>
+  <img src="img/19.jpg" id="Kodama" />
+  <a herf=""><button type="button" id="button1">Default</button></a>
+</div>
+
 
 
 
@@ -103,9 +148,7 @@ Your browser does not support the video tag.
 
 
 </div>
-
-
-
+</body>
 
 
 </html>
