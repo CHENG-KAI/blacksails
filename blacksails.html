@@ -9,7 +9,8 @@
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en"/>
 <link type="text/css" rel="stylesheet" href="bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link type="text/css" rel="stylesheet" href="bootstrap-social.css">
 
 <script>
 $(document).ready(function(){
@@ -28,7 +29,7 @@ $(document).ready(function(){
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 800, function(){
+      }, 2000, function(){
 
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
@@ -49,23 +50,22 @@ $(document).ready(function(){
 
 
 
-
-
-
 </head>
 <body>
 <div id="nav_bar">
   <img src="img/logo.jpg" id="logo" />
   <ul>
-    <li><a class="About" href="#">About</a></li>
-    <li><a class="Fever"   href="#">Favor</a></li>
+    <li><a class="About" href="About.html">About</a></li>
+    <li><a class="Fever"   href="#">Fever</a></li>
     <li><a class="Service"   href="#">Service</a></li>
     <li><a class="Product"   href="#">Product</a></li>
-    <li><a class="Telegentic_App"   href="#">Telegentic App</a></li>
+    <li><a class="Telegentic_App"   href="http://www.telegenicapp.com/">Telegentic App</a></li>
     <li><a class="Contest"   href="#">Contest</a></li>
     <li><a class="Chinese_Site"   href="#">Chinese Site</a></li>
   </ul>
 </div>
+
+
 
 <div id="wrapper">
 <video width="720" height="720" autoplay loop>
@@ -73,7 +73,7 @@ $(document).ready(function(){
 Your browser does not support the video tag.
 </video>
 </div>
-<div id="video_icon"><a href="#wrapper_img"> Click </a></div>
+<div id="video_icon" ><a href="#wrapper_img"><i class="material-icons" style="font-size:80px;color:lightblue;text-shadow:2px 2px 4px #000000;">keyboard_arrow_down</i></a></div>
 
 <div id="wrapper_img">
   <img src="img/11.jpg" id="Kodama"/>
@@ -109,7 +109,7 @@ Your browser does not support the video tag.
 <div id="footbar">
    <div class= "followbar"><p>Follow us! We're friendly</p></div>
    <div>
-      <p class= "Discover" >Discover</p>
+      <p class= "Discover" >Discover <img src="img/facebook_logo.jpg" id="facebook_logo" /> <img src="img/instagram_logo.jpg" id="instagram_logo" /> <img src="img/youtube_logo.jpg" id="youtube_logo"/> <img src="img/wechat_logo.jpg" id="wechat_logo"/></p>
         <div id="firstsection">
            <p>How Telegintic Works</p>
            <p>Become a Teleginter</p>
@@ -127,7 +127,7 @@ Your browser does not support the video tag.
             <p>Blog</p>
             <p>Platform</p>
             <p>Corporate Perks</p>
-            <p>Terms & Privacy</p>
+            <a href="Privacy Policy.html"><p>Terms & Privacy</p></a>
         </div>
 
         <p class= "Download_our_app" >Download our app</p>
@@ -137,6 +137,7 @@ Your browser does not support the video tag.
              <img src="img/Download_app_logo.jpg" id="Download_app_logo" />
              </a>
          </div>
+
 
 
 
