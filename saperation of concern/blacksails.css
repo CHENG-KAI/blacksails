@@ -1,0 +1,270 @@
+body{
+overflow-x:hidden;　
+overflow-y:auto;
+}
+
+#nav_bar{
+position:absolut;
+display: block;
+}
+
+#nav_bar ul{
+      list-style-type: none;
+      margin-right: 100px;
+      margin-left: 250px;
+      padding-top:45px;
+      overflow: hidden;
+      display: block;
+}
+
+#nav_bar li{
+      test-align:center;
+      display: inline;
+      margin-left: 30px;
+}
+
+#nav_bar a:link{
+text-decoration: none;
+}
+
+#nav_bar a:hover{
+color:  #ff7c00;
+}
+
+#nav_bar a{
+color: black;
+
+}
+
+
+#logo{
+width:60px;
+height:60px;
+float:left;
+margin-left:20px;
+margin-top: 10px;
+}
+
+#wrapper video{
+  height:auto;
+  width: auto;
+  display: block;
+  background-size:cover;
+  z-index: -2;
+  position: absolute;
+}
+
+
+#video_icon{
+margin-left: 47%;
+z-index:-1;
+padding-top: 40%;
+}
+
+
+
+#footbar{
+position:relative;
+height: 400px;
+background-color: #b4b9b9  ;
+}
+
+.followbar{
+margin-left: 80px;
+padding-top: 40px;
+font-size: 20px;
+
+}
+
+
+#firstsection{
+ color:white;
+ margin-left: 40px;
+ font-size:18px;
+ font-style: Proxima;
+ font-weight:100;
+ list-style-type:none;
+}
+
+#firstsection a:link{
+ text-decoration: none;
+ color: white;
+}
+
+#firstsection a:hover{
+  color:  #ff7c00;
+  display: block;
+
+}
+
+
+
+#firstsection li{
+margin-top: 10px;
+
+}
+
+p.Discover, .Discover{
+ margin-left: 80px;
+ font-size:20px;
+ font-style: Proxima;
+ font-weight:200;
+ margin-top: 20px;
+}
+
+#facebook_logo,#instagram_logo,#youtube_logo{
+  width:30px;
+  height:30px;
+
+}
+#wechat_logo{
+  width:35px;
+  height:35px;
+}
+
+
+
+#secondsection{
+margin-left: 460px;
+color: white;
+font-size:18px;
+font-style: Proxima;
+font-weight:100;
+list-style-type:none;
+
+}
+
+#secondsection a:link{
+text-decoration: none;
+}
+
+
+
+#secondsection a:hover{
+color:  #ff7c00;
+display: block;
+}
+
+#secondsection a{
+color: white;
+}
+#secondsection li{
+margin-top: 6px;
+
+}
+
+
+
+p.Company{
+margin-left: 500px;
+margin-top: -210px;
+font-size:20px;
+font-style: "Proxima";
+font-weight:200;
+}
+
+p.Download_our_app{
+margin-left: 800px;
+margin-top: -225px;
+font-size:20px;
+font-style: Proxima;
+font-weight:200;
+}
+
+#thirdsection{
+margin-left: 800px;
+font-size:18px;
+font-style: Proxima;
+font-weight:200;
+color: white;
+}
+
+#Download_app_logo{
+width:150px;
+height:45px;
+}
+
+#Kodama{
+width:100%;
+height: 100%;
+}
+
+
+
+#wrapper_img{
+margin-top: 120px;
+}
+
+
+#button1{
+position:absolute;
+margin-top:600px;
+left:45%;
+height:40px;
+width:180px;
+color: black;
+background-color:transparent;
+border: 1px solid black;
+}
+
+#button1:hover{
+color: white;
+background-color:transparent;
+background-color: black;
+transition-duration: 0.5s;
+}
+
+#contactus_bar{
+background-color: black;
+height:350px;
+margin-top:-20px;
+}
+
+#contactus_bar p:nth-child(2){
+position: relative;
+color:white;
+left:40%;
+top:160px;
+font-size: 18px;
+}
+
+#contactus_bar h1{
+position: relative;
+color: white;
+left:45%;
+top:150px;
+font-family: "ProximaNova";
+}
+
+#contactus_bar a:hover{
+text-decoration: none;
+color:pink;
+transition-duration: 0.5s;
+}
+
+
+
+
+
+
+#about_us{
+margin-left: 45%;
+font-family: 'Open Sans Condensed';
+position:relative;
+margin-top: 70px;
+}
+#about_us_content{
+width:70%;
+font-family: 'BentonSansLight';
+font-size: 20px;
+margin-left: 15%;
+text-align: justify;
+letter-spacing: 1px;
+}
+#about_us_content p>a{
+text-decoration: none;
+}
+#about_us_content p>a:hover{
+color: pink;
+transition-duration: 0.6s;
+}
