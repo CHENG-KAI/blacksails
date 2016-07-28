@@ -31,9 +31,9 @@ Your browser does not support the video tag.
 <div id="video_icon" ><a href="#wrapper_img"><i class="material-icons" style="font-size:80px;color:lightblue;text-shadow:2px 2px 4px #000000;">keyboard_arrow_down</i></a></div>
 
 <div id="wrapper_img">
-  <a herf=""><button type="button" id="button1">Default</button></a>
+
   <img src="img/11.jpg" id="Kodama"/>
-  <a herf=""><button type="button" id="button1">Default</button></a>
+  <a href="videopage.php"><button type="button" id="button1">Watch Video</button></a>
   <img src="img/12.jpg" id="Kodama" />
   <a herf=""><button type="button" id="button1">Default</button></a>
   <img src="img/13.jpg" id="Kodama" />

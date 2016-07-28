@@ -1,0 +1,146 @@
+body{
+overflow-x:hidden;　
+overflow-y:auto
+}
+
+#BLACK_LOGO{
+width: 200px;
+height:125px;
+margin-top: -5px;
+float:left;
+}
+
+#nav{
+list-style-type: none;
+padding-top: 40px;
+padding-left: 450px;
+}
+
+#nav li{
+display: inline;
+margin-left: 40px;
+font-size: 18px;
+}
+
+#nav a:link{
+text-decoration: none;
+}
+
+#nav a:hover{
+color: #cccccc;
+transition-duration: 0.5s;
+}
+
+#nav a{
+color:black;
+}
+
+#Fewrapper{
+display: block;
+background-size:cover;
+z-index: -1;
+}
+
+video{
+position: absolute;
+min-width: 100%;
+min-height: 100%;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+
+.material-icons{
+margin-top:450px;
+margin-left:400px;
+}
+
+#button1{
+position:absolute;
+margin-top:625px;
+left:45%;
+height:40px;
+width:180px;
+color: black;
+background-color:transparent;
+border: 1px solid black;
+}
+
+#button1:hover{
+color: white;
+background-color:transparent;
+background-color: black;
+transition-duration: 0.2s;
+}
+
+
+
+
+
+
+#singleline{
+border-bottom: solid;
+border-bottom-color:black;
+width:150px;
+border-bottom-width: thin;
+padding-bottom: 25px;
+margin-top: 150px;
+margin-left: 575px;
+}
+
+#firstsec{
+margin-top: 50px;
+}
+
+#firstsec h1{
+margin-left: 450px;
+}
+
+#firstsec p{
+margin-left: 250px;
+margin-right: 250px;
+text-align: center;
+line-height: 40px;
+}
+
+#contactus_bar{
+background-color: black;
+height:350px;
+width: 110%;
+margin-left: -10px;
+margin-top: -30px;
+}
+
+#contactus_bar a{
+text-decoration: none;
+}
+
+#contactus_bar p:nth-child(2){
+position: relative;
+color:white;
+left:35%;
+top:160px;
+font-size: 18px;
+}
+
+#contactus_bar h1{
+position: relative;
+color: white;
+top:150px;
+font-family: "ProximaNova";
+text-align: center;
+margin-left: -80px;
+}
+
+#contactus_bar a:hover{
+text-decoration: none;
+color:pink;
+transition-duration: 0.5s;
+}
+
+#facebook{
+margin-left: 8%;
+margin-top: 70px;
+}
