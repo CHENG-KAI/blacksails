@@ -1,24 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
 overflow-x:hidden;　
 overflow-y:auto
 }
 
 #BLACK_LOGO{
-width: 200px;
-height:125px;
+width: 20%;
+height:4%;
 margin-top: -5px;
 float:left;
 }
 
 #nav{
 list-style-type: none;
-padding-top: 40px;
-padding-left: 450px;
+padding-top: 4%;
+padding-left: 40%;
 }
 
 #nav li{
 display: inline;
-margin-left: 40px;
+margin-left: 5%;
 font-size: 18px;
 }
 
@@ -41,28 +45,27 @@ background-size:cover;
 z-index: -1;
 }
 
+
 video{
 position: absolute;
-min-width: 100%;
+width: 100%;
 min-height: 100%;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
 
-
-
 .material-icons{
-margin-top:450px;
-margin-left:400px;
+margin-top:30%;
+margin-left:27%;
 }
 
 #button1{
 position:absolute;
-margin-top:625px;
-left:45%;
-height:40px;
-width:180px;
+margin-top:50%;
+left:43%;
+width:15%;
+height:7%;
 color: black;
 background-color:transparent;
 border: 1px solid black;
@@ -75,42 +78,124 @@ background-color: black;
 transition-duration: 0.2s;
 }
 
-
-
-
-
-
 #singleline{
 border-bottom: solid;
 border-bottom-color:black;
-width:150px;
+width:12.1%;
 border-bottom-width: thin;
-padding-bottom: 25px;
-margin-top: 150px;
-margin-left: 575px;
+padding-bottom:3%;
+margin-top:19%;
+margin-left: 44.5%;
+text-align: center;
 }
 
 #firstsec{
-margin-top: 50px;
+margin-top: 3%;
 }
 
 #firstsec h1{
-margin-left: 450px;
+text-align: center;
 }
 
 #firstsec p{
-margin-left: 250px;
-margin-right: 250px;
+margin-left:23%;
+margin-right:20%;
 text-align: center;
-line-height: 40px;
+line-height: 300%;
+}
+
+#graybackground{
+background-color:hsl(0, 0%, 98%);
+width:auto;
+height:900px;
+margin-top:5%;
+}
+
+#graybackground h1{
+font-family:'Squada One', cursive;
+color: black;
+margin-left:40%;
+padding-top:3%;
+}
+
+#Aquaseca{
+padding-top: 10px;
+width:40%;
+height:25%;
+margin-left: 10%;
+opacity:0.5;
+filter: alpha(opacity=50); /* For IE8 and earlier */
+overflow: hidden;
+display: inline-block;
+}
+
+#Aquaseca:hover{
+opacity:1;
+filter: alpha(opacity=100); /* For IE8 and earlier */
+transition: 1.5s;
+transform:scale(1.025);
+}
+
+#Atacama{
+padding-top: 10px;
+width:40%;
+height:25%;
+margin-left: 2%;
+opacity:0.5;
+filter: alpha(opacity=50); /* For IE8 and earlier */
+overflow: hidden;
+display: inline-block;
+}
+
+#Atacama:hover{
+opacity:1;
+filter: alpha(opacity=100); /* For IE8 and earlier */
+transition: 1.5s;
+transform:scale(1.025);
+}
+
+
+#Joomag,#Squaregg{
+width:40%;
+height:25%;
+margin-left: 10%;
+margin-top: 1.5%;
+opacity:0.5;
+filter: alpha(opacity=50); /* For IE8 and earlier */
+overflow: hidden;
+display: inline-block;
+}
+
+#Joomag:hover,#Squaregg:hover{
+opacity:1;
+filter: alpha(opacity=100); /* For IE8 and earlier */
+transition: 1.5s;
+transform:scale(1.025);
+}
+
+
+#Proxce,#Telesense{
+width:40%;
+height:25%;
+margin-left: 2%;
+margin-top: 1.5%;
+opacity:0.5;
+filter: alpha(opacity=50); /* For IE8 and earlier */
+overflow: hidden;
+display: inline-block;
+}
+
+#Proxce:hover,#Telesense:hover{
+opacity:1;
+filter: alpha(opacity=100); /* For IE8 and earlier */
+transition: 1.5s;
+transform:scale(1.025);
 }
 
 #contactus_bar{
 background-color: black;
 height:350px;
-width: 110%;
-margin-left: -10px;
-margin-top: -30px;
+max-width:auto;
 }
 
 #contactus_bar a{
@@ -120,9 +205,9 @@ text-decoration: none;
 #contactus_bar p:nth-child(2){
 position: relative;
 color:white;
-left:35%;
-top:160px;
+top:150px;
 font-size: 18px;
+text-align: center;
 }
 
 #contactus_bar h1{
@@ -131,7 +216,6 @@ color: white;
 top:150px;
 font-family: "ProximaNova";
 text-align: center;
-margin-left: -80px;
 }
 
 #contactus_bar a:hover{
@@ -141,6 +225,11 @@ transition-duration: 0.5s;
 }
 
 #facebook{
-margin-left: 8%;
-margin-top: 70px;
+margin-left: 12%;
+margin-top: 7%;
+}
+
+iframe{
+width:80%;
+height:640px;
 }

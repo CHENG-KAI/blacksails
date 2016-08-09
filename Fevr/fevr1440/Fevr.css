@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+overflow-x:hidden;　
+overflow-y:auto
+}
+
+#BLACK_LOGO{
+width: 20%;
+height:4%;
+margin-top: -5px;
+float:left;
+}
+
+#nav{
+list-style-type: none;
+padding-top: 4%;
+padding-left: 40%;
+}
+
+#nav li{
+display: inline;
+margin-left: 5%;
+font-size: 18px;
+}
+
+#nav a:link{
+text-decoration: none;
+}
+
+#nav a:hover{
+color: #cccccc;
+transition-duration: 0.5s;
+}
+
+#nav a{
+color:black;
+}
+
+#Fewrapper{
+display: block;
+background-size:cover;
+z-index: -1;
+}
+
+
+video{
+position: absolute;
+width: 110%;
+min-height: 100%;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.material-icons{
+margin-top:30%;
+margin-left:29%;
+}
+
+#button1{
+position:absolute;
+margin-top:50%;
+left:45%;
+right:45%;
+width:15%;
+height:7%;
+color: black;
+background-color:transparent;
+border: 1px solid black;
+
+}
+
+#button1:hover{
+color: white;
+background-color:transparent;
+background-color: black;
+transition-duration: 0.2s;
+}
+
+#singleline{
+border-bottom: solid;
+border-bottom-color:black;
+width:12.1%;
+border-bottom-width: thin;
+padding-bottom:3%;
+margin-top:19%;
+margin-left: 47%;
+}
+
+#firstsec{
+margin-top: 3%;
+}
+
+#firstsec h1{
+margin-left:37.5%;
+}
+
+#firstsec p{
+margin-left:23%;
+margin-right:20%;
+text-align: center;
+line-height: 300%;
+}
+
+#graybackground{
+background-color:hsl(0, 0%, 98%);
+width:auto;
+height:1200px;
+margin-top:5%;
+}
+
+#graybackground h1{
+font-family:'Squada One', cursive;
+color: black;
+margin-left:40%;
+padding-top:3%;
+}
+
+#Aquaseca{
+padding-top: 10px;
+width:40%;
+height:27%;
+margin-left: 10%;
+}
+
+#Atacama{
+padding-top: 10px;
+width:40%;
+height:27%;
+margin-left: 2%;
+}
+
+#Joomag{
+width:40%;
+height:27%;
+margin-left: 10%;
+margin-top: 1.5%;
+}
+
+#Proxce{
+width:40%;
+height:27%;
+margin-left: 2%;
+margin-top: 1.5%;
+}
+
+#Squaregg{
+width:40%;
+height:27%;
+margin-left: 10%;
+margin-top: 1.5%;
+}
+
+#Telesense{
+width:40%;
+height:27%;
+margin-left: 2%;
+margin-top: 1.5%;
+}
+
+#contactus_bar{
+background-color: black;
+height:350px;
+max-width:auto;
+}
+
+#contactus_bar a{
+text-decoration: none;
+}
+
+#contactus_bar p:nth-child(2){
+position: relative;
+color:white;
+left:35%;
+top:160px;
+font-size: 18px;
+}
+
+#contactus_bar h1{
+position: relative;
+color: white;
+top:150px;
+font-family: "ProximaNova";
+text-align: center;
+margin-right: 4%;
+}
+
+#contactus_bar a:hover{
+text-decoration: none;
+color:pink;
+transition-duration: 0.5s;
+}
+
+#facebook{
+margin-left: 14%;
+margin-top: 7%;
+}
