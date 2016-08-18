@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+overflow-x:hidden;　
+overflow-y:auto
+}
+
+#BLACK_LOGO{
+width: 20%;
+height:4%;
+margin-top: -5px;
+float:left;
+}
+
+#nav{
+list-style-type: none;
+padding-top: 4%;
+padding-left: 40%;
+}
+
+#nav li{
+display: inline;
+margin-left: 5%;
+font-size: 18px;
+}
+
+#nav a:link{
+text-decoration: none;
+}
+
+#nav a:hover{
+color: #cccccc;
+transition-duration: 0.5s;
+}
+
+#nav a{
+color:black;
+}
+
+#servicewrapper{
+width:100%;
+height:100%;
+margin-top: -3.5%;
+}
+
+#container{
+position: relative;
+}
+
+
+.material-icons{
+margin-top: -10%;
+margin-left: 48.5%;
+position:absolute;
+}
+
+
+
+#contactus_bar{
+background-color: black;
+height:350px;
+max-width:auto;
+}
+
+#contactus_bar a{
+text-decoration: none;
+}
+
+#contactus_bar p:nth-child(2){
+position: relative;
+color:white;
+top:150px;
+font-size: 18px;
+text-align: center;
+}
+
+#contactus_bar h1{
+position: relative;
+color: white;
+top:150px;
+font-family: "ProximaNova";
+text-align: center;
+}
+
+#contactus_bar a:hover{
+text-decoration: none;
+color:pink;
+transition-duration: 0.5s;
+}
+
+#facebook{
+margin-bottom: 8%; 
+}
+
+.floating-box {
+display: inline-block;
+width: 20%;
+height: 10%;
+margin-left: 20%;
+margin-top: 50px;
+line-height: 180%;
+}
+
+.floating-box > h2{
+text-align: center;
+}
+
+.floating-box > p{
+color:#ff99e6;
+text-align: justify;
+}
